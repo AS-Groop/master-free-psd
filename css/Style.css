@@ -146,7 +146,7 @@ p{
 }
 
 .collapse{
-    height: 30rem;
+    height: auto;
 }
 .nav .nav-items.blockon{
     display: block;
@@ -159,6 +159,7 @@ p{
 }
 .nav .nav-items{
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
 }
 
@@ -184,6 +185,9 @@ p{
     font-size: 1.1rem;
     transition: all 0.3s ease;
 }
+.dropdown-content .drop-link.right{
+    position: relative;
+}
 
 .nav .nav-items .nav-link:hover,
 .dropdown-content .drop-link:hover{
@@ -198,7 +202,17 @@ p{
 }
 
 .nav .nav-items .nav-link a{
-    color: var(--white)
+    color: var(--white);
+    display: flex;
+}
+.nav .nav-items .nav-link a .fa-chevron-down{
+    padding-left: 8px;
+    font-size: 10px;
+    line-height: 22px;
+}
+.nav .nav-items .nav-link a.drop-right{
+    display: flex;
+    justify-content: space-between;
 }
 .nav .nav-items .nav-link:hover a{
     color: #b4ff00;
@@ -777,3 +791,12 @@ footer.footer .move-up span:hover{
 }
 
 /*        x      Viewport less then or equal to 520px       x     */
+
+
+
+.fa-chevron-right,
+.fa-chevron-down{
+    padding-left: 8px;
+    font-size: 10px;
+    line-height: 22px;
+}
