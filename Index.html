@@ -20,6 +20,7 @@
 
 	<!-- Custom Style   -->
 	<link rel="stylesheet" href="./css/Style.css">
+	<link rel="stylesheet" href="./css/videogallery.css">
 
 </head>
 
@@ -1031,6 +1032,54 @@
 		</section>
 
 		<!-- -----------x---------- Site Content -------------x------------>
+
+		<!-- ---------------------- Video gallery -------------------------->
+
+		<section class="video-gallery">
+			<div class="container">
+				<h1>Multimedia</h1>
+				<div class="row">
+					<div class="col">
+						<div class="feature-img">
+							<img src="./assets/TDTU.png" width="100%">
+							<img src="./assets/videopng/play.png" class="play-btn" onclick="playVideo('./assets/tdtu.mp4');">
+						</div>
+					</div>
+					<div class="col">
+						<div class="small-img-row">
+							<div class="small-img">
+								<img src="./assets/videopng/pic2.png">
+								<img src="./assets/videopng/play.png" onclick="playVideo('./assets/tdtu.mp4');" class="play-btn">
+							</div>
+							<p>How to add multiple videos in a website <br> or to make a video gallery</p>
+						</div>
+						<div class="small-img-row">
+							<div class="small-img">
+								<img src="./assets/videopng/pic3.png">
+								<img src="./assets/videopng/play.png" class="play-btn" onclick="playVideo('./assets/tdtu.mp4');">
+							</div>
+							<p>How to add multiple videos in a website <br> or to make a video gallery</p>
+						</div>
+						<div class="small-img-row">
+							<div class="small-img">
+								<img src="./assets/videopng/pic4.png">
+								<img src="./assets/videopng/play.png" class="play-btn" onclick="playVideo('./assets/tdtu.mp4');">
+							</div>
+							<p>How to add multiple videos in a website <br> or to make a video gallery</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="video-player" id="videoPlayer">
+				<video width="100%" controls autoplay id="myVideo">
+					<source src="./tdtu.mp4" type="video/mp4">
+				</video>
+				<img src="./assets/videopng/close.png" class="close-btn" onclick="stopVideo()">
+			</div>
+		</section>
+
+		<!-- -----------x---------- Video gallery -------------x------------>
 	</main>
 
 	<!---------------x------------- Main Site Section ---------------x-------------->

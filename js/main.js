@@ -15,6 +15,24 @@ const responsive = {
 
 
 
+// video gallery
+
+var videoPlayer = document.getElementById("videoPlayer");
+var myVideo = document.getElementById("myVideo");
+
+function stopVideo(){
+
+    videoPlayer.style.display = "none";
+    myVideo.src = "";
+
+}
+
+function playVideo(file){
+    myVideo.src = file;
+    videoPlayer.style.display = "block";
+}
+
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 

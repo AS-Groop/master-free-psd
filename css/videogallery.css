@@ -1,0 +1,156 @@
+
+.video-gallery{
+    background: #2e8d86;
+    position: relative;
+}
+
+.video-gallery .container{
+    max-width: 1451px;
+    margin:  auto;
+    padding: 080px 100px;
+
+}
+.container h1{
+    padding: 60px 0;
+    color: #ffffff;
+    font-size: 44px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis:50%;
+    min-width: 250px;
+}
+.feature-img{
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.small-img-row{
+    display: flex;
+    background: #efefef;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 85%;
+}
+.small-img{
+    position: relative;
+}
+.small-img img{
+    width: 150px;
+}
+.small-img-row p{
+    margin-left: 20px;
+    color: #707070;
+    line-height: 22px;
+    font-size: 15px;
+}
+.play-btn{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.small-img .play-btn{
+    width: 35px; 
+}
+.video-player{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+video:focus{
+    outline: none;
+}
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer; 
+}
+
+/*              Viewport less then or equal to 1130px            */
+
+@media only screen and (max-width: 1000px){
+    
+    .container h1{
+        font: 24px "Anton" cursive;
+        font-size: 36px;
+        font-family: "Anton" cursive;
+    }
+    .feature-img{
+        width: 100%;
+    }
+    .col {
+        flex-basis: 100%;
+        min-width: 250px;
+    }
+    .small-img-row p{
+        padding: 15px 15px 15px 0;
+    }
+    .small-img-row{
+        margin: 20px auto;
+        width: 100%;
+    }
+    .small-img img{
+        width: 250px;
+    } 
+    .col {
+        flex-basis: 100%;
+        min-width: 250px;
+    }
+
+}
+@media only screen and (max-width: 660px){
+    
+    
+    
+    .small-img-row{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } 
+}
+@media only screen and (max-width: 590px){
+    
+    
+    
+    .small-img,
+    .small-img img{
+        width: 100%;
+    } 
+
+}
+
+
+/*        x      Viewport less then or equal to 750px       x     */
+
+
+/* .container h1{
+        font: 24px "Anton" cursive;
+    }
+    .col {
+        flex-basis: 100%;
+        min-width: 250px;
+    }
+    .small-img-row{
+        margin: 20px auto;
+    }
+    .small-img img{
+        width: 200px;
+    } */
+/*      x       Viewport less then or equal to 1130px    x     */

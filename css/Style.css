@@ -78,7 +78,9 @@ span{
 }
 
 .container{
-    margin: 0 5vw;
+    padding: 0 5vw;
+    max-width: 1451px;
+    margin: auto;
 }
 
 .text-gray{
@@ -763,12 +765,23 @@ footer.footer .move-up span:hover{
     footer.footer .container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .feature-img{
+        width: 100%;
+    }
+    .small-img-row{
+        width: 100%;
+    }
 
 }
 
 
 /*        x      Viewport less then or equal to 750px       x     */
 
+
+
+
+
+/*        x      Viewport less then or equal to 750px       x     */
 
 /*              Viewport less then or equal to 520px            */
 
