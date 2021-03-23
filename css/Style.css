@@ -778,7 +778,24 @@ footer.footer .newsletter .form-element input{
     font-size: 1rem;
     width: 74%;
 }
-
+footer.footer .follow div p,
+    footer.footer .newsletter div p{
+    color:#d4d4d4da;
+    margin: 10px;
+    font-family: sans-serif;
+}
+footer.footer .follow div p{
+    display: flex;
+}
+footer.footer .follow div p:hover a,
+footer.footer .follow div p:hover i{
+    color: rgba(4,93,47,0.51);
+}
+footer.footer .follow div p a{
+    color: #d4d4d4da;
+    margin-left: 15px;
+    cursor: pointer;
+}
 footer.footer .newsletter .form-element span{
     background: var(--sky);
     padding: .5rem .7rem;
@@ -873,6 +890,11 @@ footer.footer .move-up span:hover{
     .dropdown-content-in{
         width: 100%;
         left: 0;
+        top: 100%;
+    }
+    .drop-link:hover .dropdown-content-in {
+        display: block;
+        animation: lefttrans 0.3s ease; 
     }
 
     .dropdown-content{
