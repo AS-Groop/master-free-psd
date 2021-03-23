@@ -792,14 +792,20 @@ footer.footer .instagram div > img{
     margin: .3rem .4rem;
 }
 
-footer.footer .follow div i{
+footer.footer .rights div i:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+footer.footer .rights div i{
     color: var(--white);
     padding: 0 .4rem;
 }
 
 footer.footer .rights{
-    justify-content: center;
+    justify-content: space-between;
     font-family: var(--Josefin);
+    padding: 20px;
+    background: #000000;
 }
 
 footer.footer .rights h4 a{
@@ -907,7 +913,7 @@ footer.footer .move-up span:hover{
 
 @media only screen and (max-width: 520px){
     main .blog{
-        height: 125vh;
+        height: 100vh;
     }
 
     .site-content .post-content > .post-image .post-info{
@@ -938,4 +944,8 @@ footer.footer .move-up span:hover{
     padding-left: 8px;
     font-size: 10px;
     line-height: 22px;
+}
+footer.footer .instagram .flex-row{
+    width: 100%;
+    height: 100%;
 }
