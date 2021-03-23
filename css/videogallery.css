@@ -1,6 +1,6 @@
 
 .video-gallery{
-    background: #2e8d86;
+    background: var(--sky);
     position: relative;
 }
 
