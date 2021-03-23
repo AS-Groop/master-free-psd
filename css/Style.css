@@ -83,6 +83,11 @@ span{
     margin: auto;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .text-gray{
     color: var(--text-gray);
 }
@@ -623,12 +628,14 @@ main .post-content .post-title a{
 
 /* --------------- Hexagon ----------------------- */
 
-.hexagon__section
+.hexagon_items
 {
-	display: flex;
+	/* display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+    min-height: 100vh; */
+    max-width: 1666px;
+    margin: auto;
 }
 .hexagon_item
 {
@@ -637,6 +644,9 @@ main .post-content .post-title a{
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+}
+.hexagon_items>h2{
+    margin: 80px 0 20px 26px;
 }
 .hexagon_item .hexagon
 {
@@ -708,6 +718,25 @@ main .post-content .post-title a{
 }
 
 /* -------x------- Hexagon -----------x----------- */
+
+
+/* --------------- Partners ----------------------- */
+
+
+.partners .partners__item{
+    padding: 30px 0 20px;
+    justify-content: space-around;
+}
+
+.partners .partners__item-inner{
+    display: inline-block;
+    margin: 5px;
+}
+.partners .partners__item-inner:hover{
+    transform: scale(1.2);
+}
+
+/* -------x------- Partners -----------x----------- */
 
 /* ---------x------- Main Content -----x----- */
 

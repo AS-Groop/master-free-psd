@@ -77,7 +77,7 @@ $(document).ready(function () {
         responsive: responsive
     });
 
-
+    
     // click to scroll top
     $('.move-up span').click(function () {
         $('html, body').animate({
