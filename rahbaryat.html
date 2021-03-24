@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Blooger</title>
+
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="./css/all.css">
+
+
+	<!-- --------- Owl-Carousel ------------------->
+	<link rel="stylesheet" href="./css/owl.carousel.min.css">
+	<link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+	<!-- ------------ AOS Library ------------------------- -->
+	<link rel="stylesheet" href="./css/aos.css">
+
+	<!-- Custom Style   -->
+	<link rel="stylesheet" href="./css/Style.css">
+	<link rel="stylesheet" href="./css/videogallery.css">
+
+</head>
+
+<body>
+	<!-- ----------x-----------------  Navigation Top ---------------------------x------------------ -->
+	<nav class="nav__top">
+		<div class="nav-menu flex-row">
+			<!-- <div class="nav-brand">
+				sdd
+				<a href="#" class="text-gray"><span class="img"><img style="width: 35px" src="assets/logotipuniver_en_sr.png" alt=""></span><span class="brand-title">Islom Karimov nomidagi<br> Toshkent Davlat<br> Texnika Universeti</span></a>
+			</div> -->
+			<div>
+				<ul class="nav-items">
+					<li class="nav-link">
+						<a href="#"><img src="assets/uzb1.png" alt=""></a>
+					</li>
+					<li class="nav-link">
+						<a href="#"><img src="assets/gb.png" alt=""></a>
+					</li>
+					<li class="nav-link">
+						<a href="#"><img src="assets/music.png" alt=""></a>
+					</li>
+					<li class="nav-link">
+						<a href="#"><img src="assets/sitemap.png" alt=""></a>
+					</li>
+					<li class="nav-link">
+						<a href="#">Pochta</a>
+					</li>
+					<li class="nav-link">
+						<a href="#">Murojaat uchun:<b> 235-04-53, 238-64-15</b></a>
+					</li>
+					<li class="nav-link">
+						<a href="#">Masofaviy ta’lim</a>
+					</li>
+					<li class="nav-link">
+						<a href="#">
+							<h6 style="color:orange;"><span><b>Qabul-2020</b></span></h6>
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="#">
+							<h6 style="color:tomato;"><span><b>Mandat-2020</b></span></h6>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="social text-gray">
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+			</div>
+		</div>
+	</nav>
+	<!-- ----------x-----------------  Navigation Top -----------------------x---------------------- -->
+	<!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+	<nav class="nav" id="navbar">
+		<div class="nav-menu flex-row">
+			<div class="nav-brand">
+				<a href="#" class="text-gray"><span class="img"><img style="width: 35px"
+							src="assets/logotipuniver_en_sr.png" alt=""></span><span class="brand-title">Islom Karimov
+						nomidagi<br> Toshkent Davlat<br> Texnika Universeti</span></a>
+			</div>
+			<div class="toggle-collapse">
+				<div class="toggle-icons">
+					<i class="fas fa-bars"></i>
+				</div>
+			</div>
+			<div>
+				<ul class="nav-items block">
+					<li class="nav-link dropdown">
+						<a href="#">Yangiliklar<i class="fas fa-chevron-down"></i></a>
+						<ul class="dropdown-content">
+							<li class="drop-link">
+								<a href="#" class="drop-right">Yangiliklar <i class="fas fa-chevron-right"></i></a>
+							</li>
+							<li class="drop-link">
+								<a href="#" class="drop-right">E'lonlar<i class="fas fa-chevron-right"></i></a>
+							</li>
+							<li class="drop-link">
+								<a href="#" class="drop-right">Islohatlar<i class="fas fa-chevron-right"></i></a>
+							</li>
+							<li class="drop-link">
+								<a href="#" class="drop-right">Ommaviy tadbirlar<i class="fas fa-chevron-right"></i></a>
+							</li>
+							<li class="drop-link">
+								<a href="#" class="drop-right">Vakansiyalar</a>
+							</li>
+							<li class="drop-link">
+								<a href="#" class="drop-right">Yoshlar bilan ishlash manaviyat va ma'rifat
+									yo'nalishidagi ishlar</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-link dropdown">
+						<a href="#">Tuzilma<i class="fas fa-chevron-down"></i></a>
+						<ul class="dropdown-content">
+							<li class="drop-link right">
+								<a href="#" class="drop-right">OTM nizomi va tarixi <i
+										class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">OTM nizomi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">OTM tarixi</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Rahbaryat<i class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Rektor</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Prorektorlar</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Fakultetlar<i class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Elektronika va avtomatika fakulteti</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Mashinasozlik fakulteti</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Mexanika fakulteti</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Energetika fakulteti</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Konchilik ishi fakulteti</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Markazlar va bo'limlar<i
+										class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Ma'naviyat va ma'rifat bo'limi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Monitoring va ichki nazoart bo'limi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">O'quv bo'limi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Xalqaro aloqalar bo'limi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Magistratura bo'limi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Marketing bo'limi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Bugaltirya bo'limi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Boshqa bo'limlar</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Kafedralar<i class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">E va A fakulteti kafedralari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Mash. fakulteti kafedralari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Mex. fakulteti kafedralari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">En. fakulteti kafedralari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Kon. fakulteti kafedralari</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Jamoat tashkilotlari<i
+										class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Kasaba uyushmasi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Xotin qizlar kengashi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">O'zbekiston Yoshlar Itfoqi</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link">
+								<a href="#">Ta'lim sifati</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Faxriylar</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-link dropdown">
+						<a href="#">Faoliyat<i class="fas fa-chevron-down"></i></a>
+						<ul class="dropdown-content">
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Ilmiy faoliyat<i class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Ilmiy texnik ishlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Ilmiy jurnallar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Ilmiy tadbirlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Dessirtatsiya</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Avtoreferat</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Yosh olimlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Nashr ishlari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Nomzodlik imtihonlari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Ilmiy tadqiqot faoliyati</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Ilmiy kengash<i class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Avtoreferatlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Kengash seminarlari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Ximoya hujjatlari</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Xalqaro aloqalar<i class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Xalqaro xamkor tashkilotlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Xorijda malaka oshirish va ta'lim</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Jalb etilgan sarmoya va grantlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Amaldagi loyihalar</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Madaniy-ma'rifiy <i class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Ma'daniy-marifiy tadbirlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Talabalar hayoti</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Sport tadbirlari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Yoshlar itfoqi tadbirlari</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Moliyaviy faoliyat <i
+										class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Marketing</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Shartnomalar namunasi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Ijtimoiy muhofaza</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Bitiruvchilar monitoringi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Ishga joylashtirish</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Bugaltiriya</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link">
+								<a href="#">Malaka oshirish</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Ekalogik ta'lim</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-link dropdown">
+						<a href="#">Talabalarga<i class="fas fa-chevron-down"></i></a>
+						<ul class="dropdown-content">
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Bakalavriat <i class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Yuriqnoma</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Dars jadvali</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">O'zlashtirish</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Davomat</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">O'quv rejalari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Iqtidorli talabalar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Stipendiyalar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Talabalar turar joyi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Davlat imtihonlari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Bitiruv malakaviy ish himoyasi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Talabalar shaxsiy kabineti</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Talaba amaliyoti</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Talabalarimiz loyihalari</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Magistratura <i class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Me'yoriy hujjatlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Yuriqnoma</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Dars jadvali</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">O'zlashtirish</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Davomat</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">O'quv rejalari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Iqtidorli talabalar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Stipendiyalar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Talabalar turar joyi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Davlat imtihonlari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Dissertatsiya mavzulari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Dissertatsiya mavzulari</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Sirtqi ta'lim <i class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Me'yoriy hujjatlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Kerakli adabiyotlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">UMK va darsliklar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">O'quv ish rejalari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Dars jadvali</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Xorijiy talabalar <i
+										class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">OTM tahsil olayotgan xorijiy talabalar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Xorijiy talabalar uchun to'lov kontrak miqdori</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">OTM to'g'risidagi video rolik va bryoshuralar</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link">
+								<a href="#">O'qishni ko'chirish</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">O'qishni tiklash</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-link dropdown">
+						<a href="#">Abituriyent<i class="fas fa-chevron-down"></i></a>
+						<ul class="dropdown-content">
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Bakalavriat <i class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Eslatma</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Me'yoriy hujjatlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Qabul kvotasi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Imtiyozlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">OTM ga kirish uchun hujjatlar ro'yhati</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Tushgan arizalar soni</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">OTM manzili</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">To'lov shartnoma summasi</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Magistratura <i class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Imtihon kunlari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Eslatma</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Kirish sinovlari dasturi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Me'yoriy hujjatlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Qabul kvotasi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Tushgan arizalar soni</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">OTM ga kirish uchun hujjatlar ro'yhati</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">To'lov-shartnoma summasi</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Chet el fuqarolari<i
+										class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Qabul yo'nalishlari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">OTM ga kirish uchun hujjatlar ro'yhati</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Hujjatlarni qabul qilish vaqti</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Hujjatlarni topshirish (Bakalavriat) uchun havola</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Hujjatlarni topshirish (Magistratura) uchun havola</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Suhbatdan o'tish vaqti</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Me'yoriy hujjatlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">To'lov-shartnoma summasi</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Ikkinchi mutaxasislik<i
+										class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Qabul yo'nalishlari</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">OTM ga kirish uchun hujjatlar ro'yhati</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Hujjatlarni qabul qilish vaqti</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Hujjatlarni topshirish uchun havola</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Suhbatdan o'tish vaqti (jadval)</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Me'yoriy hujjatlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">To'lov-shartnoma summasi</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">5yillik stajga ega abuturentlarga<i
+										class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">OTM ga kirish uchun hujjatlar ro'yhati</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Hujjatlarni qabul qilish vaqti</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Hujjatlarni topshirish uchun havola</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Suhbatdan o'tish vaqti (jadval)</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Me'yoriy hujjatlar</a>
+									</li>
+								</ul>
+							</li>
+							<li class="drop-link right">
+								<a href="#" class="drop-right">Qo'shma ta'lim dasturi<i
+										class="fas fa-chevron-right"></i></a>
+								<ul class="dropdown-content-in">
+									<li class="drop-link">
+										<a href="#">Qabul kvotasi</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">OTM ga kirish uchun hujjatlar ro'yhati</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Hujjatlarni qabul qilish vaqti</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Hujjatlarni topshirish uchun havola</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Me'yoriy hujjatlar</a>
+									</li>
+									<li class="drop-link">
+										<a href="#">Imtihonlar jadvali</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-link dropdown">
+						<a href="#">Qonunchilik<i class="fas fa-chevron-down"></i></a>
+						<ul class="dropdown-content">
+							<li class="drop-link">
+								<a href="#">Prezident farmon va qarorlar</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Hukumat qarori va dasturlar</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Vazirlik buyruqlari qarorlari</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Universetit normativ uslubiy va ijro hujjatlari</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Fan dasturi</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-link dropdown">
+						<a href="#">Interaktiv<i class="fas fa-chevron-down"></i></a>
+						<ul class="dropdown-content">
+							<li class="drop-link">
+								<a href="#">Interaktiv xizmatlar sahifasi</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">1-kurs maktabir</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Bitiruvchilar</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Diplom olganligi to'g'risida</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Vakant lavozimlari</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Ishchi o'quv reja</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Dars jadvali</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Elektron kutubxona</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Telegram BOT</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Rektor vertual qabulxonasi</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-link dropdown">
+						<a href="#">Haqida<i class="fas fa-chevron-down"></i></a>
+						<ul class="dropdown-content">
+							<li class="drop-link">
+								<a href="#">Universetit haqida</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Universetit tuzilmasi</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Universetit rekvizitlari</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Universetit video</a>
+							</li>
+							<li class="drop-link">
+								<a href="#">Fan dasturi</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- <div class="social text-gray">
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+			</div> -->
+		</div>
+	</nav>
+
+	<!-- ------------x---------------  Navigation --------------------------x------------------- -->
+
+	<!----------------------------- Main Site Section ------------------------------>
+
+	<main>
+
+		
+	</main>
+
+	<!---------------x------------- Main Site Section ---------------x-------------->
+
+
+
+	<!-- --------------------------- Footer ---------------------------------------- -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="about-us" data-aos="fade-right" data-aos-delay="200">
+				<h2>Ma'lumot</h2>
+				<p>Toshkent Davlat Texnika Universetitida birqator fakultetlar mavjud. <br> Bular Elektronika va
+					avtomatika fakulteti, Energetika fakulteti, Konchilik ishi fakulteti, Mashina sozlik fakulteti,
+					Mexanika fakulteti, Muhandislik fakulteti va Aviasozlik fakulteti.</p>
+			</div>
+			<div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+				<h2>Manzil / Aloqa uchun</h2>
+				<!-- <p>Stay update with our latest</p>
+				<div class="form-element">
+					<input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+				</div> -->
+				<div>
+					<p>Manzil: Toshkent sh, Navoiy ko'chasi 13-uy,</p>
+					<p>Email:devontaqi.uz</p>
+					<p>Telefon: +998 71 234-11-78 </p>
+					<p>Ish vaqti: Du-Sha: 9.00 - 18.00</p>
+					<p>Telegram bot: <a>@taqi_uz_bot</a></p>
+					<p>Telegram kanal: <a>@taqi_uz</a></p>
+				</div>
+			</div>
+			<div class="instagram" data-aos="fade-left" data-aos-delay="200">
+				<h2>Bizning manzil</h2>
+				<div class="flex-row">
+					<iframe height="100%"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.124391996489!2d30.364922015731644!3d50.457408279476354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc919501b4ef%3A0x71a476f68f4c8246!2z0YPQuy4g0KTQtdC-0LTQvtGA0Ysg0J_Rg9GI0LjQvdC-0LksIDEzLCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1555013165886!5m2!1sru!2sua"
+						frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<!-- <div class="flex-row">
+					<img src="./assets/instagram/thumb-card6.png" alt="insta4">
+					<img src="./assets/instagram/thumb-card7.png" alt="insta5">
+					<img src="./assets/instagram/thumb-card8.png" alt="insta6">
+				</div> -->
+			</div>
+			<div class="follow" data-aos="fade-left" data-aos-delay="200">
+				<h2>Sahifalar</h2>
+				<div>
+					<p><i class="fa fa-check-circle"></i><a>Biz haqimizda</a></p>
+					<p><i class="fa fa-check-circle"></i><a>Fakultetlar</a></p>
+					<p><i class="fa fa-check-circle"></i><a>Kafedralar</a></p>
+					<p><i class="fa fa-check-circle"></i><a>Intraktiv xizmatlar</a></p>
+					<p><i class="fa fa-check-circle"></i><a>Murojat uchun</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="rights flex-row">
+			<h4 class="text-gray">
+				Copyright ©2019 All rights reserved | made by
+				<a href="www.youtube.com/c/dailytuition" target="_black">AS-Groop <i class="fab fa-youtube"></i>
+					Channel</a>
+			</h4>
+			<div>
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+		</div>
+		<div class="move-up">
+			<span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+		</div>
+	</footer>
+
+
+	<!-- -------------x------------- Footer --------------------x------------------- -->
+
+	<!-- Jquery Library file -->
+	<script src="./js/Jquery3.4.1.min.js"></script>
+
+	<!-- --------- Owl-Carousel js ------------------->
+	<script src="./js/owl.carousel.min.js"></script>
+
+	<!-- ------------ AOS js Library  ------------------------- -->
+	<script src="./js/aos.js"></script>
+
+	<!-- Custom Javascript file -->
+	<script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -97,6 +97,9 @@ p{
     color: var(--text-light);
 }
 
+.hidden{
+    overflow: hidden;
+}
 /* ------x------- Global Classes -------x-------*/
 
 /* --------------- navbar ----------------- */
@@ -109,15 +112,14 @@ p{
 }
 
 .nav{
-    background: white;
     padding: 0 2rem;
     /*height: 0rem;*/
     /*min-height: 10vh;*/
     /*overflow: hidden;*/
     transition: height 1s ease-in-out;
-    position: absolute;
+    position: relative;
     width: 100%;
-    background: transparent;
+    background: var(--bg-color);
     z-index: 9999;
 }
 .sticky {
@@ -154,6 +156,7 @@ p{
 
 .collapse{
     height: auto;
+    overflow: auto;
 }
 .nav .nav-items.blockon{
     display: block;
@@ -377,11 +380,11 @@ main .site-title{
     display: flex;
     justify-content: center;
 }
-main .site-title>div{
+/* main .site-title>div{
         width: 100%;
         height: 100%;
         background-color: rgba(4,93,47,0.3);
-}
+} */
 
 main .site-title .site-background{
     padding-top: 15rem;
@@ -876,7 +879,7 @@ footer.footer .move-up span:hover{
     }
 
     .nav{
-        background-color: rgba(0,0,0,0.6)
+        /* background-color: rgba(0,0,0,0.6) */
     }
 
     .nav .nav-items{
