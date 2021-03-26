@@ -558,7 +558,7 @@ main .post-content .post-title a{
 .site-content > .sidebar .category-list .list-items{
     background: var(--sky);
     padding: .4rem 1rem;
-    margin: .8rem 0;
+    margin: .8rem 0 0 4px;
     border-radius: 3rem;
     width: 70%;
     display: flex;
