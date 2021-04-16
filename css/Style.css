@@ -888,9 +888,9 @@ footer.footer .move-up span:hover{
         flex-direction: column;
     }
 
-    .nav{
-        /* background-color: rgba(0,0,0,0.6) */
-    }
+    /* .nav{
+        background-color: rgba(0,0,0,0.6)
+    } */
 
     .nav .nav-items{
         display: none;
