@@ -133,6 +133,7 @@
     font-size: 1rem;
 }
 
+.faculty .btn,
 .derac__item .btn{
     display: inline-block;
     border: none;
@@ -180,6 +181,87 @@
 
 
 
+/* fakultetlar  start*/
+
+.faculty{
+    width: 100%;
+    position: relative;
+}
+.faculty-content{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 6px;
+    margin: 3px 0;
+}
+.faculty-item{
+    border:2px solid #d8d8d8;
+    display: flex;
+    flex-wrap: wrap;
+}
+.faculty-item:hover .img img{
+    transform: scale(1.2);
+    filter: grayscale(60%);
+}
+.faculty-item .img{
+    width: 150px;
+    height: 100px;
+    flex: 40%;
+    max-width: 40%;
+    overflow: hidden;
+}
+.faculty-item .faculty-content-in {
+    
+    flex: 60%;
+    max-width: 60%;
+}
+
+.faculty-item .img img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+}
+.faculty-item .faculty-content-in a h3{
+    font-family: var(--Abel);
+    font-size: 14px;
+}
+
+.faculty-item .faculty-content-in p{
+    font-size: 12px;
+    display: inline-block;
+    text-align: justify;
+    height:  70px;
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+.faculty .faculty-content-in .btn{
+    display: inline-block;
+    border: none;
+    font-size: 12px;
+    font-family: var(--Livvic);
+    cursor: pointer;
+    border-radius: 0;
+    padding: .1rem .3rem;
+    background: var(--sky);
+    transform: translateY(50%);
+    margin-right: 5px;
+    float: right;
+}
+.faculty .faculty-content-in .btn:hover{
+    color: #ffffff;
+}
+.faculty .faculty-content-in .btn::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+/* fakultetlar  end*/
+
 
 
 
@@ -207,5 +289,27 @@
 @media only screen and (max-width:535px){
     .deraction__content{
         flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width:600px){
+    .faculty-content{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .faculty-content .faculty-item .img{
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    .faculty-content .faculty-item .faculty-content-in{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .faculty-item .faculty-content-in a h3{
+        font-family: var(--Abel);
+        font-size: 16px;
     }
 }
